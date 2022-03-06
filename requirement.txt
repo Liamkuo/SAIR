@@ -1,0 +1,9 @@
+pathlib
+tqdm
+pillow
+argparse
+typing
+torchvision==0.8.2+cu101 
+torch==1.7.1+cu101 
+gdown
+face-alignment
