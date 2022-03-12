@@ -33,3 +33,16 @@ To avoid the torturous environment configuration, we recommend you use [Anaconda
 
 `python run.py -i test_img/obama.png -gl guide_info/obama/latents.pt  -gi guide_info/obama/ref.png -e disgust -ee -eh`
 
+
+## Citation
+
+Please cite the following paper if you feel SAIR useful to your research
+
+```
+@article{guo2022semantic,
+  title={Semantic-Aware Latent Space Exploration for Face Image Restoration},
+  author={Guo, Yanhui and Luo, Fangzhou and Wu, Xiaolin},
+  journal={arXiv preprint arXiv:2203.03005},
+  year={2022}
+}
+```
