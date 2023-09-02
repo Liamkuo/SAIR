@@ -15,7 +15,7 @@
 
 ## Description
 
-This is the code for the paper "Semantic-Aware Latent Space Exploration for Image Restoration" (SAIR)
+This is the code for the paper "Self-Supervised Face Image Restoration with One-shot  Reference" (SAIR)
 
 To avoid the torturous environment configuration, we recommend you use [Anaconda](https://www.anaconda.com/products/individual#Downloads) to finish the next configuration. 
 
