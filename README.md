@@ -3,7 +3,7 @@
 
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 
-> For image restoration, methods leveraging priors from generative models have been proposed to achieve more robust restoration, demonstrating a promising capacity to restore photorealistic and high-quality results. However, these methods are susceptible to semantic ambiguity, particularly with semantically relevant images such as facial images. In this paper, we propose a semantic-aware latent space exploration method for image restoration (SAIR). By explicitly modeling semantics information from a given example, SAIR is able to reliably restore severely degraded images not only to high-resolution highly realistic looks but also to correct semantics. Quantitative and qualitative experiments collectively demonstrate the effectiveness of the proposed SAIR. Our code will be publicly available.
+> For image restoration, methods leveraging priors from generative models have been proposed and demonstrated a promising capacity to robustly restore photorealistic and high-quality results. However, these methods are susceptible to semantic ambiguity, particularly with images that have obviously correct semantics such as facial images. In this paper, we propose a semantic-aware latent space exploration method for image restoration (SAIR). By explicitly modeling semantics information from a given reference image, SAIR is able to reliably restore severely degraded images not only to high-resolution and highly realistic looks but also to correct semantics. Quantitative and qualitative experiments collectively demonstrate the superior performance of the proposed SAIR.
 <p align="center">
 <img src="figure/sample1.jpg" width="800px"/>
 </p>
