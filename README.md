@@ -24,7 +24,7 @@ To avoid the torturous environment configuration, we recommend you use [Anaconda
 1. `conda create -n SAIR python=3.6`  
 3. `source activate SAIR && conda install cudatoolkit=10.1`
 4. `pip3 install -r requirement.txt -f https://download.pytorch.org/whl/torch_stable.html`
-5. Download "stylegan2-ffhq-config-f.pt" by [Google Drvier](https://drive.google.com/uc?id=1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT) and "irestnet50.pth" by [Google Driver](https://drive.google.com/uc?id=10ygGBl9PBqff1VVasXHdxcKzBcAyS3Yq). Put these two model files in the directory "pretrained_models/"
+5. Download "stylegan2-ffhq-config-f.pt" by [Google Drvier](https://drive.google.com/uc?id=1EM87UquaoQmk17Q8d5kYIAHqu0dkYqdT) and "irestnet50.pth" by [Google Driver](https://drive.google.com/file/d/1ivbPmsqTFXB1PFi5C7jNr8yH7QffVQUq/view?usp=drive_link). Put these two model files in the directory "pretrained_models/"
 6. Put the guide image and the corresponding inverse latent code in "guide_info/your_dir/". We solve for the inverse latent code by [e4e](https://github.com/omertov/encoder4editing) . In "guide_info", we provide two examples. 
 7. All done. 
 
@@ -32,4 +32,15 @@ To avoid the torturous environment configuration, we recommend you use [Anaconda
 
 `python run.py -i test_img/obama.png -gl guide_info/obama/latents.pt  -gi guide_info/obama/ref.png -e disgust -ee -eh`
 
+## Citation
+```
+@inproceedings{guo2023selfsupervised,
+      title={Self-Supervised Face Image Restoration with a One-Shot Reference}, 
+      author={Yanhui Guo and Fangzhou Luo and Shaoyuan Xu},
+      year={2023},
+      eprint={2203.03005},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
