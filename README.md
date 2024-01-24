@@ -37,10 +37,8 @@ To avoid the torturous environment configuration, we recommend you use [Anaconda
 @inproceedings{guo2023selfsupervised,
       title={Self-Supervised Face Image Restoration with a One-Shot Reference}, 
       author={Yanhui Guo and Fangzhou Luo and Shaoyuan Xu},
-      year={2023},
-      eprint={2203.03005},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      journal={The 49th IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)},
+      year={2024}
 }
 ```
 
