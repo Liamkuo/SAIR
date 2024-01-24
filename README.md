@@ -34,11 +34,11 @@ To avoid the torturous environment configuration, we recommend you use [Anaconda
 
 ## Citation
 ```
-@inproceedings{guo2023selfsupervised,
-      title={Self-Supervised Face Image Restoration with a One-Shot Reference}, 
-      author={Yanhui Guo and Fangzhou Luo and Shaoyuan Xu},
-      journal={The 49th IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)},
-      year={2024}
+@article{guo2023selfsupervised,
+  title={Self-Supervised Face Image Restoration with a One-Shot Reference},
+  author={Guo, Yanhui and Luo, Fangzhou and Xu, Shaoyuan},
+  journal={The 49th IEEE International Conference on Acoustics, Speech, & Signal Processing (ICASSP)},
+  year={2024}
 }
 ```
 
